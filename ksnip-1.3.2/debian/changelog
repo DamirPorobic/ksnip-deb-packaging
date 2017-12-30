@@ -1,28 +1,3 @@
-ksnip (1.4.0-1) stretch; urgency=medium
-
-  * New: Info text (cursor position and selection area size) for snipping area cursor, can be enabled and disabled via settings.(#49)
-  * New: Horizontal vertical guiding lines for snipping area cursor, can be enabled and disabled via settings. (#48)
-  * New: Drop shadow for paint items, can be enabled and disabled via settings (#47)
-  * New: Copy/past paint items. (#46)
-  * New: Numbering paint item. (#45)
-  * New: Arrow paint item. (#44)
-  * New: Select multiple paint items and perform operation on all selected at once. (#42)
-  * New: Run last or default capture on startup. (#40)
-  * New: Run rect capture from command line. (#39)
-  * New: Select between default and custom filename for saving screenshots. (#36)
-  * New: Keyboard shortcuts for paint tools. (#43)
-  * New: Bring to front and send to back paint items. (#31)
-  * New: Configurable snipping cursor thickness and color. (#54)
-  * Changed: Moving Ksnip from Qt4 to Qt5. (#22)
-  * Fixed: Settings window left hand side menu is not correctly selected when opening first time. (#37)
-  * Fixed: Snipping area not correctly shown when started on non-primary screen. (#52)
-  * Fixed: Active window screenshot ignores delay. (#53)
-  * Fixed: Rectangular area screenshot is shifted to the right of actual selected area. (#51)
-  * Fixed: Snipping area not closing when pressing Esc on Ubuntu 16.04. (#57)
-
- -- Ksnip <damir.porobic@gmx.com>  Sun, 17 Dec 2017 14:41:53 +0100
-
-
 ksnip (1.3.2-1) stretch; urgency=medium
 
   * Fixed: When compositor is disabled, rect are capture shows only black screen. Fix for Qt4 Ksnip version. (#35)
