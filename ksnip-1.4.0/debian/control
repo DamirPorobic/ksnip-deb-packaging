@@ -1,0 +1,13 @@
+Source: ksnip
+Section: utils
+Priority: optional
+Maintainer: Damir Porobic <damir.porobic@gmx.com>
+Build-Depends: debhelper (>=9), cmake (>=2.8.12)
+Standards-Version: 3.9.7
+Homepage: https://github.com/DamirPorobic/ksnip
+
+Package: ksnip
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Screenshot Tool
+ Screenshot tool inspired by Windows Snipping Tool and made with Qt for Linux
